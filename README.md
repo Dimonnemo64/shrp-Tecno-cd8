@@ -1,0 +1,1 @@
+# shrp-Tecno-cd8
