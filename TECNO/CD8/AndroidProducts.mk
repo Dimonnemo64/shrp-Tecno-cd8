@@ -16,5 +16,6 @@
 
 PRODUCT_MAKEFILES := \
    $(LOCAL_DIR)/omni_CD8.mk
-   
-COMMON_LUNCH_CHOICES := omni_CD8-eng   
+#   
+#COMMON_LUNCH_CHOICES := omni_CD8-eng   
+#
