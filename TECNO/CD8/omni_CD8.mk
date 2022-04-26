@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := TECNO-CD8
+PRODUCT_RELEASE_NAME := CD8
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
@@ -37,9 +37,9 @@ PRODUCT_PACKAGES += \
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CD8
-PRODUCT_NAME := omni_$(PRODUCT_DEVICE)
+PRODUCT_NAME := omni_CD8
 PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO CD8
+PRODUCT_MODEL := CD8
 PRODUCT_MANUFACTURER := TECNO MOBILE LIMITED
 
 TARGET_RECOVERY_DEVICE_MODULES += \
