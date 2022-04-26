@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-#PRODUCT_MAKEFILES := \
-#   $(LOCAL_DIR)/omni_CD8.mk
-#   
  PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/twrp_CD8.mk  
+    $(LOCAL_DIR)/omni_CD8.mk
+#   
+#PRODUCT_MAKEFILES := \
+#  $(LOCAL_DIR)/twrp_CD8.mk  
 #   
 #   
 #COMMON_LUNCH_CHOICES := omni_CD8-eng   
