@@ -25,7 +25,8 @@ PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+#$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 #PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root) \
  #   $(LOCAL_PATH)/prebuilt/dtb:dtb.img
@@ -37,7 +38,8 @@ PRODUCT_PACKAGES += \
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CD8
-PRODUCT_NAME := omni_CD8
+#PRODUCT_NAME := omni_CD8
+PRODUCT_NAME := twrp_CD8
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := CD8
 PRODUCT_MANUFACTURER := TECNO MOBILE LIMITED
