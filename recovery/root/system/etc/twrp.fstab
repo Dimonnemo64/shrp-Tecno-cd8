@@ -20,7 +20,7 @@
 /product                ext4      product                                              flags=display="Product";backup=1;logical;
 /product_image          emmc      product                                              flags=display="Product image";backup=1;flashimg=1;logical;
 ######################################################################################################################################
-/data		              	f2fs	/dev/block/platform/bootdevice/by-name/userdata		       flags=encryptable=aes-256-xts
+/data		              	f2fs	/dev/block/platform/bootdevice/by-name/userdata		       flags=fileencryption=aes-256-xts
 /proinfo            		emmc	/dev/block/platform/bootdevice/by-name/proinfo		       flags=display="proinfo";backup=1;flashimg=1
 /nvram		            	emmc	/dev/block/platform/bootdevice/by-name/nvram		         flags=display="nvram";backup=1;flashimg=1
 /protect_f          		ext4	/dev/block/platform/bootdevice/by-name/protect1		       flags=display="protect_f";backup=1;flashimg=1
